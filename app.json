@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/wxDrawer/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "wx-drawer",
+    "navigationBarTextStyle":"white"
+  }
+}

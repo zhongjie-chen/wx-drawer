@@ -1,0 +1,85 @@
+.mpage {
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  background-color: #e7eaef;
+}
+.withAnimate {
+  transition: all 300ms ease;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+}
+.search {
+  background: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.search .avatar {
+  padding: 30rpx;
+}
+.search .avatar image {
+  width: 50rpx;
+	height: 50rpx;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 60rpx;
+  border-bottom: 20rpx solid #dbdbdb;
+}
+.item image {
+  height: 150rpx;
+  width: 150rpx;
+}
+.user {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #e7eaef;
+  border-right: 1px solid #dbdbdb;
+  box-sizing: border-box;
+}
+.user .user-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: cadetblue;
+}
+.user .user-box .user-face-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: snow;
+  padding: 20rpx;
+  margin-bottom: 100rpx;
+}
+.user .user-box .user-face {
+  width: 150rpx;
+	height: 150rpx;
+}
+.user .user-box .one-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  background: lightgray;
+  color: white;
+  font-size: 38rpx;
+}
